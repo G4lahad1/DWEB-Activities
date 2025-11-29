@@ -1,0 +1,161 @@
+/* Wonka Chocolates - Student CSS Version */
+/* Kyzer Owen Canicosa */
+
+/* reset-ish */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a:visited {
+    color: #b388ff; /* light purple */
+}
+
+body {
+    background-color: #3a2468;         /* simple purple background */
+    color: #ffe9c9;                    /* light cream text */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* main wrapper */
+.page {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 18px;
+}
+
+/* header and nav */
+.site-header {
+    margin-bottom: 15px;
+}
+
+.site-header h1 {
+    color: #ffb26b;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+nav {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: #ffd59e;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* generic content */
+.content {
+    margin-top: 5px;
+}
+
+h2 {
+    color: #ffd59e;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+h3 {
+    color: #ffdfa3;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+p, li {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+ul {
+    margin-left: 18px;
+    margin-bottom: 8px;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+}
+
+.hero {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-text h2 {
+    margin-bottom: 6px;
+}
+
+.hero-text p {
+    margin-bottom: 6px;
+}
+
+
+
+/* cart rows */
+.item-row {
+    display: grid;
+    grid-template-columns: 2fr 0.7fr 0.9fr 1fr;
+    font-size: 13px;
+    padding: 6px 4px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.item-row:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.item-row:first-of-type {
+    font-weight: bold;
+    background-color: rgba(255, 213, 158, 0.2);
+}
+
+
+.note {
+    background-color: rgba(255, 178, 107, 0.25);
+    padding: 8px 10px;
+    border-left: 4px solid #ffb26b;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+
+.site-footer {
+    text-align: center;
+    margin-top: 12px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+}
+
+
+@media (max-width: 700px) {
+    body {
+        padding: 10px;
+    }
+    .page {
+        padding: 12px;
+    }
+    .item-row {
+        grid-template-columns: 1.5fr 0.6fr 0.8fr 0.9fr;
+        font-size: 12px;
+    }
+}
