@@ -20,6 +20,7 @@
             <a href="Canicosa_TypeJuggling.php">Family Bundle Cart</a>
             <a href="Canicosa_ShorthandEcho.php">Price List</a>
             <a href="Canicosa_ExpressionsAndOperator.php">Checkout Summary</a>
+            <a href="Canicosa_StockMonitor.php">Stock Monitor</a>
         </nav>
     </header>
     <main class="content">
