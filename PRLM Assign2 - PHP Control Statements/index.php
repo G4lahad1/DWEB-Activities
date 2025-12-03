@@ -24,6 +24,7 @@
         <li><a href="Canicosa_TypeJuggling.php">Family Bundle Cart</a></li>
         <li><a href="Canicosa_ShorthandEcho.php">Price List</a></li>
         <li><a href="Canicosa_ExpressionsAndOperator.php">Checkout Summary</a></li>
+        <li><a href="Canicosa_StockMonitor.php">Stock Monitor</a></li>
     </ul>
 
     <p>All prices and promos are examples only and used for learning PHP.</p>
